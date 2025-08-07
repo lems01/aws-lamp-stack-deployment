@@ -78,11 +78,11 @@ Before you begin, make sure you have the following:
   - HTTP (port 80)
   - MySQL (port 3306) [Optional – for remote access]
 
-![AWS Screenshot](./assets/AWSPAGE1.png)
+![AWS Screenshot](assets/AWSPAGE1.png)
 
-![AWS Screenshot](./assets/AWSPAGE3.png)
+![AWS Screenshot](assets/AWSPAGE3.png)
 
-![AWS Screenshot](./assets/AWSPAGE3.png)
+![AWS Screenshot](assets/AWSPAGE3.png)
 
 ### 2. Change permmission on .pem file and connect via SSH
 
@@ -122,7 +122,7 @@ sudo mysql_secure_installation
 sudo mysql
 ```
 
-![AWS Screenshot](./assets/MySQL.png)
+![MySQL Login](assets/MySQL.png)
 
 - Set the password
 ```MySQL
