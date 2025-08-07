@@ -78,11 +78,11 @@ Before you begin, make sure you have the following:
   - HTTP (port 80)
   - MySQL (port 3306) [Optional – for remote access]
 
-![AWS Screenshot](https://raw.githubusercontent.com/lems01/aws-lamp-stack-deployment/master/assets/AWSPAGE1.png)
+![AWS Screenshot](/aws-lamp-stack-deployment/master/AWSPAGE1.png)
 
-![AWS Screenshot](https://raw.githubusercontent.com/lems01/aws-lamp-stack-deployment/master/assets/AWSPAGE1.png)
+![AWS Screenshot](/aws-lamp-stack-deployment/assets/AWSPAGE2.png)
 
-![AWS Screenshot](https://raw.githubusercontent.com/lems01/aws-lamp-stack-deployment/master/assets/AWSPAGE1.png)
+![AWS Screenshot](/aws-lamp-stack-deployment/assets/AWSPAGE3.png)
 
 ### 2. Change permmission on .pem file and connect via SSH
 
@@ -122,7 +122,7 @@ sudo mysql_secure_installation
 sudo mysql
 ```
 
-![MySQL Login](https://raw.githubusercontent.com/lems01/aws-lamp-stack-deployment/master/assets/MySQL.png)
+![MySQL Login](/aws-lamp-stack-deployment/assets/MySQL.png)
 
 - Set the password
 ```MySQL
@@ -236,7 +236,7 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/projectlamp/index.php
 - Open browser and enter: `http://<your-ec2-public-ip>`
 - Test Apache, PHP, and Database connection using a test page.
 
-![PHP Test Page](https://raw.githubusercontent.com/lems01/aws-lamp-stack-deployment/master/assets/PHP.png)
+![PHP Test Page](assets/PHP.png)
 
 ## 🔐 Security
 
