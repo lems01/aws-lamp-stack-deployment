@@ -78,11 +78,11 @@ Before you begin, make sure you have the following:
   - HTTP (port 80)
   - MySQL (port 3306) [Optional – for remote access]
 
-![AWS Screenshot](/assets/AWSPAGE1.png)
+![AWS Screenshot](assets/AWS_PAGE1.png)
 
-![AWS Screenshot](/assets/AWSPAGE2.png)
+![AWS Screenshot](assets/AWS_PAGE2.png)
 
-![AWS Screenshot](/assets/AWSPAGE3.png)
+![AWS Screenshot](assets/AWS_PAGE3.png)
 
 ### 2. Change permmission on .pem file and connect via SSH
 
